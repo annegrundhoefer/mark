@@ -1,0 +1,350 @@
+/* New Stylesheet Title */
+
+@bebas : 'Bebas-Neue', sans-serif;
+@proxima : 'Proxima-Nova', sans-serif;
+
+@primary : #BB444A;
+@secondary : #353535;
+
+* {
+	font-family: @bebas;
+	
+}
+
+html {
+	body {
+	-webkit-font-smoothing: antialiased;
+	background: #fff;
+		.centered {
+    	float: none;
+    	margin: 0 auto;
+	}
+	.nomargin {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	textarea:focus, input:focus {
+   		outline: 0;
+	}
+    	.row {
+			margin: 0px !important;
+			padding: 0px !important;
+		}
+	
+
+#videos {
+	height: 85vh;
+	width: 100%;
+	overflow: hidden;
+	min-height: 800px;
+	background: url('../img/guitar2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	position: relative;
+	img {
+		width: 100%;
+	}
+	.bio {
+		margin-top: 150px;
+		h2 {
+			font-size: 40px;
+			color: #fff;
+		}
+		p {
+			
+			color: #fff;
+			font-weight: 500;
+			font-size: 18px;
+			font-family: @proxima;
+		}
+	}
+	.youtube {
+		vertical-align: middle;
+    	display: inline-block;
+    	padding: 0px;
+    	margin-top: 10vh;
+	}
+}
+
+#dates {
+	height: 60vh;
+	width: 100%;
+	background: @secondary;
+	.video-wrap {
+		overflow: hidden;
+		width: 100%;
+		position: relative;
+		height: 60vh;
+	}
+
+	.video-wrap video {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		opacity: 0.3;
+	}
+	.video-overlay {
+		margin: 0px;
+		padding: 15em 0em;
+		position: absolute;
+		width: 100%;
+		height: 50%;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 5;;
+		-webkit-backface-visibility: hidden;
+	}
+	.video-placeholder {
+		z-index: 4;
+		background-repeat: no-repeat !important;
+	}
+}
+
+table {
+	display: table;
+	width: 60% !important;
+	margin-bottom: 40px !important;
+	color: #fff;
+	display: inline-block;
+  	vertical-align: middle;
+  	text-align: center;
+	.table {
+		width: 60%;
+		display: inline-block;
+  		vertical-align: middle;
+  		margin-bottom: 40px !important;
+	}
+	tbody {
+		font-size: 24px;
+		letter-spacing: 1px;
+		.this {
+			.month {
+				border-top: none;
+			}
+			.event {
+				border-top: none;
+			}
+			.time {
+				border-top: none;
+			}
+			.venue {
+				border-top: none;
+			}
+			.rsvp {
+				border-top: none;
+			}
+			.color {
+				color: @primary;
+			}
+		}
+		.color {
+			color: @primary;
+			}
+			
+		}
+	}
+
+
+
+#contact {
+	background-color: @primary;
+	.about {
+		margin: 30px auto !important;
+		p {
+			font-family: @proxima;
+			color: #fff;
+			font-size: 18px;
+		}
+	}
+}
+
+
+#blog {
+	padding: 50px 0px;
+	#container {
+		margin-left: 75px;
+	}
+	.card {
+	float: left;
+	width: 29%;
+	background: #fff;
+	padding: 8px;
+	border: 2px solid #eee;
+	margin: 5px 1%;
+	
+	h2 {
+		color: @secondary;
+		margin: 10px 0px;
+	}
+	h5 {
+		color: #666;
+	}
+	img {
+		width: 100%;
+		margin: 0px auto;
+	}
+		.btn {
+			font-size: 18px;
+			letter-spacing: 1.5px;
+			background-color: @primary;
+			padding: 3px 15px;
+			border: 2px solid #fff;
+		}
+		.btn-default {
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+			&:hover {
+				background-color: @secondary;
+				text-decoration: none;
+			}
+		}
+	p {
+		color: @secondary;
+		font-family: @proxima
+	}
+}
+}
+#mastHead {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	min-height: 800px;
+	background: url('../img/mast_copy2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	position: relative;
+	img {
+		width: 100%;
+	}
+	.social {
+		ul {
+			list-style-type: none;
+			margin-top: 40px;
+			li {
+				display: inline;
+				a {
+					i {
+						color: #fff;
+						font-size: 18px;
+						margin: 0px 15px;
+					}
+				}
+			}
+		}
+		
+	}
+	.logo {
+		padding-top: 125px;
+		img {
+			width: 23%;
+		}
+	}
+	.soon {
+		h2 {
+		font-family: @proxima;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 200;
+		letter-spacing: 3px;
+		font-size: 48px;
+		font-weight: 500;
+		}
+		p {
+		font-family: @proxima;
+		color: #fff;
+		font-size: 18px;
+		padding: 10px 0px;
+		}
+		.btn {
+			font-size: 24px;
+			letter-spacing: 1.5px;
+			background-color: @primary;
+			padding: 5px 50px;
+			border: 2px solid #fff;
+		}
+		.btn-default {
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+			&:hover {
+				background-color: @secondary;
+				text-decoration: none;
+			}
+		}
+	}
+	.menu {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.15);
+	padding: 30px 0px;
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+			li {
+				display: inline;
+				margin: 0 20px;
+				a {
+					color: #fff;
+					text-transform: uppercase;
+					font-size: 22px;
+					letter-spacing: 1.5px;
+					&.hover {
+						background: @primary;
+						position: fixed;
+						transition: all .1s ease-in-out;
+						ul {
+							list-style-type: none;
+							margin: 0px;
+							padding: 0px;
+							li {
+								display: inline;
+								margin: 0 15px;
+
+								a {
+									color: #000;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
+}
+
+@media all and (max-width: 767px) { 
+	html {
+		body {
+			.social {
+				ul {
+					li {
+						a {
+							i {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			#masthead {
+				.logo {
+					img {
+						width: 60%;
+					}
+				}
+			}
+			}
+		}
+	}
+
+}

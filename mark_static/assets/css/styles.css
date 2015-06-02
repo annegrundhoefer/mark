@@ -1,0 +1,293 @@
+/* New Stylesheet Title */
+* {
+  font-family: 'Bebas-Neue', sans-serif;
+}
+html body {
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+}
+html body .centered {
+  float: none;
+  margin: 0 auto;
+}
+html body .nomargin {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+html body textarea:focus,
+html body input:focus {
+  outline: 0;
+}
+html body .row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+html body #videos {
+  height: 85vh;
+  width: 100%;
+  overflow: hidden;
+  min-height: 800px;
+  background: url('../img/guitar2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+}
+html body #videos img {
+  width: 100%;
+}
+html body #videos .bio {
+  margin-top: 150px;
+}
+html body #videos .bio h2 {
+  font-size: 40px;
+  color: #fff;
+}
+html body #videos .bio p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Proxima-Nova', sans-serif;
+}
+html body #videos .youtube {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0px;
+  margin-top: 10vh;
+}
+html body #dates {
+  height: 60vh;
+  width: 100%;
+  background: #353535;
+}
+html body #dates .video-wrap {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 60vh;
+}
+html body #dates .video-wrap video {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.3;
+}
+html body #dates .video-overlay {
+  margin: 0px;
+  padding: 15em 0em;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  -webkit-backface-visibility: hidden;
+}
+html body #dates .video-placeholder {
+  z-index: 4;
+  background-repeat: no-repeat !important;
+}
+html body table {
+  display: table;
+  width: 60% !important;
+  margin-bottom: 40px !important;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+html body table .table {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 40px !important;
+}
+html body table tbody {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+html body table tbody .this .month {
+  border-top: none;
+}
+html body table tbody .this .event {
+  border-top: none;
+}
+html body table tbody .this .time {
+  border-top: none;
+}
+html body table tbody .this .venue {
+  border-top: none;
+}
+html body table tbody .this .rsvp {
+  border-top: none;
+}
+html body table tbody .this .color {
+  color: #bb444a;
+}
+html body table tbody .color {
+  color: #bb444a;
+}
+html body #contact {
+  background-color: #bb444a;
+}
+html body #contact .about {
+  margin: 30px auto !important;
+}
+html body #contact .about p {
+  font-family: 'Proxima-Nova', sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+html body #blog {
+  padding: 50px 0px;
+}
+html body #blog #container {
+  margin-left: 75px;
+}
+html body #blog .card {
+  float: left;
+  width: 29%;
+  background: #fff;
+  padding: 8px;
+  border: 2px solid #eee;
+  margin: 5px 1%;
+}
+html body #blog .card h2 {
+  color: #353535;
+  margin: 10px 0px;
+}
+html body #blog .card h5 {
+  color: #666;
+}
+html body #blog .card img {
+  width: 100%;
+  margin: 0px auto;
+}
+html body #blog .card .btn {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: #bb444a;
+  padding: 3px 15px;
+  border: 2px solid #fff;
+}
+html body #blog .card .btn-default a {
+  color: #fff;
+  text-decoration: none;
+}
+html body #blog .card .btn-default:hover {
+  background-color: #353535;
+  text-decoration: none;
+}
+html body #blog .card p {
+  color: #353535;
+  font-family: 'Proxima-Nova', sans-serif;
+}
+html body #mastHead {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  min-height: 800px;
+  background: url('../img/mast_copy2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+}
+html body #mastHead img {
+  width: 100%;
+}
+html body #mastHead .social ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+html body #mastHead .social ul li {
+  display: inline;
+}
+html body #mastHead .social ul li a i {
+  color: #fff;
+  font-size: 18px;
+  margin: 0px 15px;
+}
+html body #mastHead .logo {
+  padding-top: 125px;
+}
+html body #mastHead .logo img {
+  width: 23%;
+}
+html body #mastHead .soon h2 {
+  font-family: 'Proxima-Nova', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-size: 48px;
+  font-weight: 500;
+}
+html body #mastHead .soon p {
+  font-family: 'Proxima-Nova', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+html body #mastHead .soon .btn {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background-color: #bb444a;
+  padding: 5px 50px;
+  border: 2px solid #fff;
+}
+html body #mastHead .soon .btn-default a {
+  color: #fff;
+  text-decoration: none;
+}
+html body #mastHead .soon .btn-default:hover {
+  background-color: #353535;
+  text-decoration: none;
+}
+html body #mastHead .menu {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 30px 0px;
+}
+html body #mastHead .menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+html body #mastHead .menu ul li {
+  display: inline;
+  margin: 0 20px;
+}
+html body #mastHead .menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+html body #mastHead .menu ul li a.hover {
+  background: #bb444a;
+  position: fixed;
+  transition: all 0.1s ease-in-out;
+}
+html body #mastHead .menu ul li a.hover ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+html body #mastHead .menu ul li a.hover ul li {
+  display: inline;
+  margin: 0 15px;
+}
+html body #mastHead .menu ul li a.hover ul li a {
+  color: #000;
+}
+@media all and (max-width: 767px) {
+  html html body .social ul li a i {
+    display: none;
+  }
+  html html body #masthead .logo img {
+    width: 60%;
+  }
+}
