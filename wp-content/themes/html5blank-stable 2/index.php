@@ -33,13 +33,12 @@
 
 	<div class="text-center menu">
 		<ul>
-			<li><a href=".home">Home</a></li>
-			<li><a href=".about">About</a></li>
-			<li><a href=".about">Music</a></li>
-			<li><a href=".about">Photos</a></li>
-			<li><a href=".blog">News</a></li>
-			<li><a href=".services">Upcoming Shows</a></li>
-			<li><a href=".contact">Contact</a></li>
+			<li><a href="javascript://" onclick="goTo('mastHead')">Home</a></li>
+			<li><a href="javascript://" onclick="goTo('videos')">Music</a></li>
+			<li><a href="javascript://" onclick="goTo('insta')">Photos</a></li>
+			<li><a href="javascript://" onclick="goTo('blog')">News</a></li>
+			<li><a href="javascript://" onclick="goTo('dates')">Upcoming Shows</a></li>
+			<li><a href="javascript://" onclick="goTo('contact')">Contact</a></li>
 		</ul>
 	</div>
 </section>
@@ -49,19 +48,26 @@
 <div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 bio">
-			<h2>LA-based Musician Mark Grundhoefer</h2>
+				<h2>LA-based Musician Mark Grundhoefer</h2>
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
+			<div class="col-sm-12 col-md-12 playlist">
+				<!-- <?php dynamic_sidebar('widget-area-2'); ?> -->
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
 			<div class="col-sm-12 col-md-6 youtube">
-				<iframe width="500" height="310" src="https://www.youtube.com/embed/5UmKWslci7s" frameborder="0" allowfullscreen></iframe>
+				<iframe width="500" height="310" src="https://www.youtube.com/embed/dt0MXJjmVWM" frameborder="0" allowfullscreen></iframe>
 				</iframe>
 			</div>
 			<div class="col-sm-12 col-md-6 youtube">
-				<iframe width="500" height="310" src="https://www.youtube.com/embed/5UmKWslci7s" frameborder="0" allowfullscreen></iframe>
+				<iframe width="500" height="310" src="https://www.youtube.com/embed/2kD7CN4exXY" frameborder="0" allowfullscreen></iframe>
 				</iframe>
 			</div>
 			
@@ -69,121 +75,43 @@
 	</div>
 </section>
 
+<section id="insta">
+
 <!-- SnapWidget -->
-<iframe src="http://snapwidget.com/sc/?u=bWFya2dydW5kaG9lZmVyfGlufDUwMHw0fDR8fHllc3wyMHxmYWRlT3V0fG9uU3RhcnR8bm98eWVz&ve=010615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:500px"></iframe>
+<iframe src="http://snapwidget.com/sc/?u=bWFya2dydW5kaG9lZmVyfGlufDUwMHw0fDR8fHllc3wyMHxmYWRlT3V0fG9uU3RhcnR8bm98eWVz&ve=010615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:350px"></iframe>
 <!--- End -->
-
-<section id="blog">
-<div id="container">
-		<div class="card">
-			<img src="http://placehold.it/350x150">
-			<h2> Card title</h2>
-			<h5> May, 30th 2015</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-			<div class="btn btn-default"><a href="#">read more</a></div>
-		</div>
-		<div class="card">
-			<img src="http://placehold.it/350x150">
-			<h2> Card title</h2>
-			<h5> May, 30th 2015</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi. </p>
-			<div class="btn btn-default"><a href="#">read more</a></div>
-		</div>
-		<div class="card">
-			<img src="http://placehold.it/350x150">
-			<h2> Card title</h2>
-			<h5> May, 30th 2015</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi.  </p>
-			<div class="btn btn-default"><a href="#">read more</a></div>
-		</div>
-		<div class="card">
-			<img src="http://placehold.it/350x150">
-			<h2> Card title</h2>
-			<h5> May, 30th 2015</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi. </p>
-			<div class="btn btn-default"><a href="#">read more</a></div>
-		</div>
-		<div class="card">
-			<img src="http://placehold.it/350x150">
-			<h2> Card title</h2>
-			<h5> May, 30th 2015</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi. </p>
-			<div class="btn btn-default"><a href="#">read more</a></div>
-		</div>
-		<div class="card">
-			<img src="http://placehold.it/350x150">
-			<h2> Card title</h2>
-			<h5> May, 30th 2015</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien odio, condimentum id ex eu, sagittis volutpat nisi. </p>
-			<div class="btn btn-default"><a href="#">read more</a></div>
-		</div>
-	</div>
 </section>
 
-<section id="dates">
-			<div class="col-lg-12 text-center nomargin">
-				<div class="video-wrap">
-					<video width="100%" src="<?php bloginfo('template_url'); ?>/assets/img/videos/back.mp4" preload="auto" loop autoplay muted></video>
-						<div class="video-overlay">
-							<table class="table">
-								<tbody>
-								  <tr class="this">
-								    <td class="month">June 20th, 1989</td>
-								    <td class="event">Big Willies Jamboree</td>
-								    <td class="time">6:00pm-2:00am</td>
-								    <td class="venue">Little Cesears</td>
-								    <td class="rsvp color">RSVP on Facebook</td>
-								  </tr>
-								  <tr>
-								    <td>June 20th, 1989</td>
-								    <td>Big Willies Jamboree</td>
-								    <td>6:00pm-2:00am</td>
-								    <td>Little Cesears</td>
-								    <td class="color">RSVP on Facebook</td>
-								  </tr>
-								  <tr>
-								    <td>June 20th, 1989</td>
-								    <td>Big Willies Jamboree</td>
-								    <td>6:00pm-2:00am</td>
-								    <td>Little Cesears</td>
-								    <td class="color">RSVP on Facebook</td>
-								  </tr>
-								  <tr>
-								    <td>June 20th, 1989</td>
-								    <td>Big Willies Jamboree</td>
-								    <td>6:00pm-2:00am</td>
-								    <td>Little Cesears</td>
-								    <td class="color">RSVP on Facebook</td>
-								  </tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-			</div>
-</section>
+
+<?php include('news.php'); ?>
+<?php include('dates.php'); ?>
+
 
 <section id="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-6 about">
-<!-- 			<ul id="sidebar-twitter-list-1" class="iconlist">
-	<li></li>
-</ul>
+			<div class="col-sm-12 col-md-4 twitter">
+				<a class="twitter-timeline" 
+				data-dnt="true" 
+				href="https://twitter.com/markgrundhoefer" 
+				data-widget-id="606200999426940928"
+				data-tweet-limit="3"
+				data-chrome="nofooter noborders transparent">
+				Tweets by @markgrundhoefer
+				</a> 
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<a href="#" class="btn btn-default btn-sm fright">Follow Us on Twitter</a>
+			</div>
+
+			<div class="col-sm-12 col-md-offset-1 col-md-7 form">
+				<h2>Contact</h2>
+				<?php echo gravity_form( $id = 1, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $tabindex ); ?>
 			</div>
 		</div>
-		</div>
- -->
-</section>
+	</div>
+</div>
 
- <script type="text/javascript">
-// 	jQuery( function($){
-// 		$.getJSON('assets/twitter/tweets.php?username=annegrundhoefer&count=3', function(tweets){
-// 			$("#sidebar-twitter-list-1").html(sm_format_twitter(tweets));
-// 		});
-// 	});
-// </script>
+</section>
 
 
 <?php include('footer.php'); ?>
