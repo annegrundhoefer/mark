@@ -23,7 +23,7 @@
 			<h2><?php the_title(); ?></h2>
 			<h5><?php the_date(); ?></h5>
 			<p><?php the_excerpt(); ?></p>
-			<div class="btn btn-default"><a href="<?php the_permalink(); ?>">read more</a></div>
+			<div class="btn btn-default"><a href="<?php the_permalink(); ?>">more info</a></div>
 		</div>
 		<?php endwhile; ?>
 

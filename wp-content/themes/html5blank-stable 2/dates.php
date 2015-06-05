@@ -31,7 +31,8 @@
 								    <td><?php echo get_the_title(); ?></td>
 								    <td><?php echo get_field('time',$post_id); ?></td>
 								    <td><?php echo get_field('venue_name',$post_id); ?></td>
-								    <td class="color"><a href="<?php echo get_field('event_link',$post_id); ?>" target="_blank">MORE INFO</a></td>
+								    <td class="color"><?php if( get_field('event_link') ): ?><a href="<?php echo get_field('event_link',$post_id); ?>" target="_blank">MORE INFO</a></td>
+								    <?php endif; ?>
 								  </tr>
 								  	<?php }
 									}

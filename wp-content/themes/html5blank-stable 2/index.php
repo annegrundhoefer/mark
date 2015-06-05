@@ -56,7 +56,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 playlist">
-				<!-- <?php dynamic_sidebar('widget-area-2'); ?> -->
+
 			</div>
 		</div>
 	</div>
