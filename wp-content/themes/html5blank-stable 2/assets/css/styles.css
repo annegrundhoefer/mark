@@ -47,6 +47,11 @@ html body .gform_wrapper .gform_body .gform_fields .gfield textarea {
   font-size: 20px;
   font-family: 'Proxima-Nova', sans-serif;
 }
+html body div#gform_confirmation_message_1.gform_confirmation_message_1.gform_confirmation_message {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
 html body textarea:focus,
 html body input:focus {
   outline: 0;
