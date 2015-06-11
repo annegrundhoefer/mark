@@ -1,3 +1,14 @@
+$(document).ready(function($){
+	$('.menu-toggle').click(function(){
+	});
+});
+
+function menuToggle(){
+	$('#mastHead.menu').toggle();
+}
+
+
+
 $(document).ready(function(){
 	
 	var container = $('#container').imagesLoaded( function() {
@@ -28,3 +39,4 @@ function goTo(section) {
 	$("html, body").animate({ scrollTop: $('#' + section).offset().top }, 500);
 	alert(message);
 }
+

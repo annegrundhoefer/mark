@@ -32,6 +32,7 @@ to no.
 }
 html body {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: #fff;
 }
 html body .centered {
@@ -61,7 +62,6 @@ html body .row {
   padding: 0px !important;
 }
 html body #videos {
-  height: 85vh;
   width: 100%;
   overflow: hidden;
   min-height: 800px;
@@ -85,12 +85,16 @@ html body #videos .bio p {
   font-weight: 500;
   font-size: 18px;
   font-family: 'Proxima-Nova', sans-serif;
+  padding-bottom: 50px;
 }
 html body #videos .youtube {
   vertical-align: middle;
   display: inline-block;
-  padding: 0px;
+  padding-bottom: 50px;
   margin-top: 10vh;
+}
+html body #videos .yt-mobile {
+  display: none;
 }
 html body #dates {
   height: 75vh;
@@ -137,7 +141,7 @@ html body table {
 html body table .table {
   width: 60%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: none;
   margin-bottom: 40px !important;
 }
 html body table tbody {
@@ -359,6 +363,9 @@ html body #mastHead .soon .btn-default a {
 html body #mastHead .soon .btn-default:hover {
   background-color: #353535;
   text-decoration: none;
+}
+html body #mastHead .menu-toggle {
+  display: none;
 }
 html body #mastHead .menu {
   position: absolute;
@@ -951,11 +958,179 @@ html .gform_wrapper .right_label li.gfield.gsection.gf_section_right {
   margin-left: 30% !important;
   width: 64%;
 }
-@media all and (max-width: 767px) {
-  html html body .social ul li a i {
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body .social ul li a i {
+    font-size: 24px !important;
+  }
+  html body #mastHead .logo img {
+    width: 50%;
+  }
+  html body #videos .playlist {
+    margin-bottom: 70px;
+  }
+  html body #videos .youtube {
+    text-align: center;
+    margin-top: 20px;
+  }
+  html body footer .copyright {
+    text-align: center !important;
+  }
+  html body footer .copyright img {
+    width: 25%;
+  }
+  html body footer .fmenu {
+    text-align: center;
+  }
+  html body #dates {
+    height: auto;
+  }
+  html body #dates .video-wrap {
+    height: auto;
+  }
+  html body #dates .video-overlay {
+    padding: 3em 0em;
+  }
+  html body #dates .mobile-hide {
     display: none;
   }
-  html html body #masthead .logo img {
-    width: 60%;
+  html body #dates td {
+    padding: 25px 30px;
+  }
+  html body #dates table {
+    width: 80% !important;
+    margin: 40px 0px !important;
+  }
+  html body #dates table .table tbody tr td {
+    vertical-align: none;
+  }
+  html body #contact .twitter {
+    text-align: center;
+  }
+  html body #contact .form h2 {
+    text-align: center;
+  }
+  html body #contact .form .gform_footer.top_label {
+    text-align: center;
+  }
+  html body #contact .form input#gform_submit_button_1.gform_button.button {
+    padding: 3px 70px;
+  }
+  html body #blog #container {
+    margin-left: 0px;
+  }
+  html body #blog .card {
+    width: 45%;
+  }
+}
+@media all and (max-width: 767px) {
+  html body .social ul li a i {
+    display: none;
+  }
+  html body #masthead .menu-toggle {
+    display: block;
+    color: #fff;
+    background: #bb444a;
+    margin: 0px;
+    line-height: 50px;
+  }
+  html body #masthead .menu-toggle i {
+    margin-right: 8px;
+  }
+  html body #masthead .menu {
+    padding: 0px 0px;
+  }
+  html body #masthead .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body #masthead .menu ul li {
+    background: #bb444a;
+    color: #fff;
+    display: block;
+    float: none;
+    padding: 15px 0px;
+  }
+  html body #masthead .menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 0px;
+  }
+  html body #masthead .logo img {
+    width: 75%;
+  }
+  html body #videos h2 {
+    text-align: center;
+  }
+  html body #videos p {
+    text-align: center;
+  }
+  html body #videos .playlist {
+    margin-bottom: 20px;
+  }
+  html body #videos .youtube {
+    display: none;
+  }
+  html body #videos .yt-mobile {
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  html body footer .copyright {
+    text-align: center !important;
+  }
+  html body footer .copyright img {
+    width: 45%;
+    margin-bottom: 0px;
+  }
+  html body footer .fmenu {
+    text-align: center;
+  }
+  html body footer .fmenu ul {
+    padding: 0px 0px !important;
+    margin: 0px 0px !important;
+    line-height: 40px;
+  }
+  html body #dates {
+    height: auto;
+  }
+  html body #dates .video-wrap {
+    height: auto;
+  }
+  html body #dates .video-overlay {
+    display: none;
+  }
+  html body #dates .mobile-hide {
+    display: none;
+  }
+  html body #dates td {
+    padding: 25px 30px;
+  }
+  html body #dates table {
+    width: 100% !important;
+    margin: 0px 0px !important;
+  }
+  html body #dates table .table tbody tr td {
+    vertical-align: none;
+  }
+  html body #contact .twitter {
+    text-align: center;
+  }
+  html body #contact .form h2 {
+    text-align: center;
+  }
+  html body #contact .form .gform_footer.top_label {
+    text-align: center;
+  }
+  html body #contact .form input#gform_submit_button_1.gform_button.button {
+    padding: 3px 70px;
+  }
+  html body #blog #container {
+    margin-left: 0px;
+  }
+  html body #blog .card {
+    width: 100%;
   }
 }

@@ -29,9 +29,8 @@
 		</div> -->
 
 
-
-
 	<div class="text-center menu">
+	<h3 onclick="menuToggle()" class="menu-toggle"><i class="fa fa-bars"></i>Menu</h3>
 		<ul>
 			<li><a href="javascript://" onclick="goTo('mastHead')">Home</a></li>
 			<li><a href="javascript://" onclick="goTo('videos')">Music</a></li>
@@ -48,15 +47,15 @@
 <div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 bio">
-				<h2>LA-based Musician Mark Grundhoefer</h2>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h2>Atlanta-based Musician Mark Grundhoefer</h2>
+				<p> For the last decade, Mark Grundhoefer has been a staple of the Los Angeles music scene playing in numerous bands, devoting countless hours of session work, and developing a full-time teaching studio.  He now resides in Atlanta, Georgia where he continues to perform, record, and educate.  He has a Bachelor of Arts in Classical Guitar from Florida State University and a vocational degree from Musicians Institute in Hollywood, California.  Mark's sound is a reflection of his southern roots and his classical and jazz studies.  He has been compared to many of his own inspirations, such as Pat Metheny and Steve Howe, among others.</p>
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 playlist">
-
+<iframe width="100%" height="275" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/114378749&amp;color=bb444a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 			</div>
 		</div>
 	</div>
@@ -68,6 +67,15 @@
 			</div>
 			<div class="col-sm-12 col-md-6 youtube">
 				<iframe width="500" height="310" src="https://www.youtube.com/embed/2kD7CN4exXY" frameborder="0" allowfullscreen></iframe>
+				</iframe>
+			</div>
+
+			<div class="col-sm-12 col-md-6 yt-mobile">
+				<iframe width="300" height="150" src="https://www.youtube.com/embed/dt0MXJjmVWM" frameborder="0" allowfullscreen></iframe>
+				</iframe>
+			</div>
+			<div class="col-sm-12 col-md-6 yt-mobile">
+				<iframe width="300" height="150" src="https://www.youtube.com/embed/2kD7CN4exXY" frameborder="0" allowfullscreen></iframe>
 				</iframe>
 			</div>
 			

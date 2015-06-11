@@ -23,11 +23,14 @@
 			<h2><?php the_title(); ?></h2>
 			<h5><?php the_date(); ?></h5>
 			<p><?php the_excerpt(); ?></p>
-			<div class="btn btn-default"><a href="<?php the_permalink(); ?>">more info</a></div>
+			<?php if( strlen(get_field('cta')) > 0 ) { ?>
+				<div class="btn btn-default">
+					<a href="<?php echo get_field('link',$post_id); ?>" target="_blank"><?php echo get_field('cta',$post_id); ?></a>
+				</div>
+			<?php } ?>
 		</div>
-		<?php endwhile; ?>
 
-        <?php else: ?>
+		<?php endwhile; ?>
 
         <?php endif; ?>
 	</div>

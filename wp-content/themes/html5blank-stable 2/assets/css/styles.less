@@ -16,6 +16,7 @@
 html {
 	body {
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	background: #fff;
 		.centered {
     	float: none;
@@ -45,7 +46,6 @@ html {
 	
 
 #videos {
-	height: 85vh;
 	width: 100%;
 	overflow: hidden;
 	min-height: 800px;
@@ -68,13 +68,17 @@ html {
 			font-weight: 500;
 			font-size: 18px;
 			font-family: @proxima;
+			padding-bottom: 50px;
 		}
 	}
 	.youtube {
 		vertical-align: middle;
     	display: inline-block;
-    	padding: 0px;
+    	padding-bottom: 50px;
     	margin-top: 10vh;
+	}
+	.yt-mobile {
+		display: none;
 	}
 }
 
@@ -124,7 +128,7 @@ table {
 	.table {
 		width: 60%;
 		display: inline-block;
-  		vertical-align: middle;
+  		vertical-align: none;
   		margin-bottom: 40px !important;
 	}
 	tbody {
@@ -376,6 +380,9 @@ footer {
 				text-decoration: none;
 			}
 		}
+	}
+	.menu-toggle {
+		display: none;
 	}
 	.menu {
 	position: absolute;
@@ -791,7 +798,105 @@ div.gf_simple_horizontal_wrapper div.gform_body ul li.gfield label.gfield_label,
     width: 64%;
 }
 
+}
 
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	html {
+		body {
+			.social {
+				ul {
+					li {
+						a {
+							i {
+								font-size: 24px !important;
+							}
+						}
+					}
+				}
+			}
+			#mastHead {
+				.logo {
+					img {
+						width: 50%;
+					}
+				}
+			}
+			#videos {
+				.playlist {
+					margin-bottom: 70px;
+				}
+				.youtube {
+					text-align: center;
+					margin-top: 20px;
+				}
+			}
+			footer {
+				.copyright {
+					text-align: center !important;
+					img {
+						width: 25%;
+					}
+				}
+				.fmenu {
+					text-align: center;
+				}
+			}
+			#dates {
+				height: auto;
+				.video-wrap {
+					height: auto;
+				}
+				.video-overlay {
+					padding: 3em 0em;
+				}
+				.mobile-hide {
+					display: none;
+				}
+				td {
+					padding: 25px 30px;
+				}
+				table {
+				width: 80% !important;
+				margin: 40px 0px !important;
+				.table {
+					tbody {
+						tr {
+							td {
+								vertical-align: none;
+							}
+						}
+					}
+				}
+			}
+			}
+			#contact {
+				.twitter {
+					text-align: center;
+				}
+				.form {
+					h2 {
+						text-align: center;
+					}
+					.gform_footer.top_label {
+						text-align: center;
+					}
+					input#gform_submit_button_1.gform_button.button {
+						padding: 3px 70px;
+					}
+				}
+			}
+			#blog {
+				#container {
+					margin-left: 0px;
+				}
+				.card {
+					width: 45%;
+				}
+			}
+		}
+	}
+}
 
 
 @media all and (max-width: 767px) { 
@@ -809,14 +914,134 @@ div.gf_simple_horizontal_wrapper div.gform_body ul li.gfield label.gfield_label,
 				}
 			}
 			#masthead {
+				.menu-toggle {
+						display: block;
+						color: #fff;
+						background: @primary;
+						margin: 0px;
+						line-height: 50px;
+						i {
+							margin-right: 8px;
+						}
+					}
+				.menu {
+						padding: 0px 0px;
+						ul {
+							display: none;
+							margin: 0px;
+							li {
+								background: @primary;
+								color: #fff;
+								display: block;
+								float: none;
+								padding: 15px 0px;
+								a {
+									color: #fff;
+									font-size: 16px;
+									padding: 15px 0px;
+								}
+							}
+						}
+					}
 				.logo {
 					img {
-						width: 60%;
+						width: 75%;
+					}
+				}
+			}
+			#videos {
+				h2 {
+					text-align: center;
+				}
+				p {
+						text-align: center;
+					}
+				.playlist {
+					margin-bottom: 20px;
+				}
+				.youtube {
+					display: none;
+				}
+				.yt-mobile {
+					text-align: center;
+					display: block;
+					vertical-align: middle;
+    				display: inline-block;
+    				margin-top: 30px;
+    				margin-bottom: 30px;
+				}
+			}
+			footer {
+				.copyright {
+					text-align: center !important;
+					img {
+						width: 45%;
+						margin-bottom: 0px;
+					}
+				}
+				.fmenu {
+					text-align: center;
+					ul {
+						padding: 0px 0px !important;
+						margin: 0px 0px !important;
+						line-height: 40px;
+					}
+				}
+			}
+			#dates {
+				height: auto;
+				.video-wrap {
+					height: auto;
+				}
+				.video-overlay {
+					display: none;
+				}
+				.mobile-hide {
+					display: none;
+				}
+				td {
+					padding: 25px 30px;
+				}
+				table {
+				width: 100% !important;
+				margin: 0px 0px !important;
+				.table {
+					tbody {
+						tr {
+							td {
+								vertical-align: none;
+							}
+						}
 					}
 				}
 			}
 			}
+			#contact {
+				.twitter {
+					text-align: center;
+				}
+				.form {
+					h2 {
+						text-align: center;
+					}
+					.gform_footer.top_label {
+						text-align: center;
+					}
+					input#gform_submit_button_1.gform_button.button {
+						padding: 3px 70px;
+					}
+				}
+			}
+			#blog {
+				#container {
+					margin-left: 0px;
+				}
+				.card {
+					width: 100%;
+				}
+			}
 		}
 	}
-
 }
+
+
