@@ -103,7 +103,7 @@
 				data-dnt="true" 
 				href="https://twitter.com/markgrundhoefer" 
 				data-widget-id="606200999426940928"
-				data-tweet-limit="3"
+				data-tweet-limit="4"
 				data-chrome="nofooter noborders transparent">
 				Tweets by @markgrundhoefer
 				</a> 

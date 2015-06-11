@@ -166,6 +166,9 @@ html body #contact .form {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+html body #contact .form .gform_footer.top_label {
+  padding-top: 30px;
+}
 html body #contact .form h2 {
   color: #bb444a;
   font-size: 50px;
