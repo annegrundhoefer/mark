@@ -5,9 +5,9 @@
 		<div class="row">
 			<div class="text-right social">
 					<ul>
-						<li><a href="https://www.facebook.com/markgrundhoefer?fref=ts"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/markgrundhoefer"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://instagram.com/markgrundhoefer/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/markgrundhoefer?fref=ts" target="blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/markgrundhoefer" target="blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://instagram.com/markgrundhoefer/" target="blank"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 			</div>

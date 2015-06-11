@@ -14,15 +14,15 @@
 				<li><a href="javascript://" onclick="goTo('contact')">Contact</a></li>
 			</ul>
 	            
-            <a href="https://www.facebook.com/markgrundhoefer">
+            <a href="https://www.facebook.com/markgrundhoefer" target="blank">
                 <i class="fa fa-facebook"></i>
             </a>
 
-             <a href="https://www.twitter.com/markgrundhoefer">
+             <a href="https://www.twitter.com/markgrundhoefer" target="blank">
                 <i class="fa fa-twitter"></i>
             </a>
 
-            <a href="https://www.instagram.com/markgrundhoefer">
+            <a href="https://www.instagram.com/markgrundhoefer" target="blank">
                 <i class="fa fa-instagram"></i>
             </a>
             <p>Copyrights &copy; 2015 All Rights Reserved by Mark Grundhoefer</p>

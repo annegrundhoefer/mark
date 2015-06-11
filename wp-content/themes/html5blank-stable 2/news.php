@@ -16,8 +16,8 @@
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 
 			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> by <?php the_author_meta('first_name'); ?>">
-                <?php the_post_thumbnail('large'); // Fullsize image for the single post ?>
                 </a>
+                <?php the_post_thumbnail('large'); // Fullsize image for the single post ?>
                 <?php endif; ?>
 
 			<h2><?php the_title(); ?></h2>
