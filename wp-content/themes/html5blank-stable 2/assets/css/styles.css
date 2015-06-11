@@ -244,7 +244,6 @@ html body #blog .card h5 {
 html body #blog .card img {
   width: 100%;
   height: auto;
-  max-height: 250px;
   margin: 0px auto;
 }
 html body #blog .card .btn {
@@ -1057,6 +1056,9 @@ html .gform_wrapper .right_label li.gfield.gsection.gf_section_right {
   }
   html body #masthead .logo img {
     width: 75%;
+  }
+  html body #videos .bio {
+    margin-top: 50px;
   }
   html body #videos h2 {
     text-align: center;
