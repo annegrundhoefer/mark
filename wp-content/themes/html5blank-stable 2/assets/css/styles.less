@@ -385,7 +385,12 @@ footer {
 	}
 	.menu-toggle {
 		display: none;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		left: 0px;
 	}
+
 	.menu {
 	position: absolute;
 	bottom: 0px;
@@ -916,12 +921,28 @@ div.gf_simple_horizontal_wrapper div.gform_body ul li.gfield label.gfield_label,
 				}
 			}
 			#masthead {
+
+				.sub-menu {
+					top: 50px;
+					left: 0px;
+					right: 0px;
+					position: fixed;
+					width: 100%;
+					margin: 0px;
+					z-index: 9999;
+					
+					li {
+						width: 100%;
+						margin: 0px 0px !important;
+					}
+				}
 				.menu-toggle {
 						display: block;
 						color: #fff;
 						background: @primary;
 						margin: 0px;
 						line-height: 50px;
+						z-index: 9999;
 						i {
 							margin-right: 8px;
 						}
@@ -932,14 +953,14 @@ div.gf_simple_horizontal_wrapper div.gform_body ul li.gfield label.gfield_label,
 							display: none;
 							margin: 0px;
 							li {
-								background: @primary;
+								background: @secondary;
 								color: #fff;
 								display: block;
 								float: none;
 								padding: 15px 0px;
 								a {
 									color: #fff;
-									font-size: 16px;
+									font-size: 20px;
 									padding: 15px 0px;
 								}
 							}

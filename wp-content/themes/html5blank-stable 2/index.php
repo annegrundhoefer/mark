@@ -31,7 +31,7 @@
 
 	<div class="text-center menu">
 	<h3 onclick="menuToggle()" class="menu-toggle"><i class="fa fa-bars"></i>Menu</h3>
-		<ul>
+		<ul class="sub-menu">
 			<li><a href="javascript://" onclick="goTo('mastHead')">Home</a></li>
 			<li><a href="javascript://" onclick="goTo('videos')">Music</a></li>
 			<li><a href="javascript://" onclick="goTo('insta')">Photos</a></li>

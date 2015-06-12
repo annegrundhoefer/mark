@@ -368,6 +368,10 @@ html body #mastHead .soon .btn-default:hover {
 }
 html body #mastHead .menu-toggle {
   display: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
 }
 html body #mastHead .menu {
   position: absolute;
@@ -1028,12 +1032,26 @@ html .gform_wrapper .right_label li.gfield.gsection.gf_section_right {
   html body .social ul li a i {
     display: none;
   }
+  html body #masthead .sub-menu {
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    z-index: 9999;
+  }
+  html body #masthead .sub-menu li {
+    width: 100%;
+    margin: 0px 0px !important;
+  }
   html body #masthead .menu-toggle {
     display: block;
     color: #fff;
     background: #bb444a;
     margin: 0px;
     line-height: 50px;
+    z-index: 9999;
   }
   html body #masthead .menu-toggle i {
     margin-right: 8px;
@@ -1046,7 +1064,7 @@ html .gform_wrapper .right_label li.gfield.gsection.gf_section_right {
     margin: 0px;
   }
   html body #masthead .menu ul li {
-    background: #bb444a;
+    background: #353535;
     color: #fff;
     display: block;
     float: none;
@@ -1054,7 +1072,7 @@ html .gform_wrapper .right_label li.gfield.gsection.gf_section_right {
   }
   html body #masthead .menu ul li a {
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     padding: 15px 0px;
   }
   html body #masthead .logo img {

@@ -1,10 +1,11 @@
 $(document).ready(function($){
 	$('.menu-toggle').click(function(){
+		// do something
 	});
 });
 
 function menuToggle(){
-	$('#mastHead.menu').toggle();
+	$('.sub-menu').toggle();
 }
 
 
