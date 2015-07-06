@@ -305,6 +305,8 @@ html body #blog .card .btn-default:hover {
 html body #blog .card p {
   color: #353535;
   font-family: 'Proxima-Nova', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 html body footer {
   background-color: #bb444a;
