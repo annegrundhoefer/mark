@@ -28,17 +28,19 @@
 			</div>
 		</div> -->
 
-
+<div class="row">
 	<div class="text-center menu">
 	<h3 onclick="menuToggle()" class="menu-toggle"><i class="fa fa-bars"></i>Menu</h3>
 		<ul class="sub-menu">
-			<li><a href="javascript://" onclick="goTo('mastHead')">Home</a></li>
+			<li><a data-toggle="collapse" href="javascript://" onclick="goTo('mastHead')">Home</a></li>
 			<li><a href="javascript://" onclick="goTo('videos')">Music</a></li>
 			<li><a href="javascript://" onclick="goTo('insta')">Photos</a></li>
 			<li><a href="javascript://" onclick="goTo('blog')">News</a></li>
 			<li><a href="javascript://" onclick="goTo('dates')">Upcoming Shows</a></li>
+			<li><a href="javascript://" onclick="goTo('lessons')">Lessons</a></li>
 			<li><a href="javascript://" onclick="goTo('contact')">Contact</a></li>
 		</ul>
+	</div>
 	</div>
 </section>
 
@@ -55,10 +57,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 playlist">
-<iframe width="100%" height="275" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/114378749&amp;color=bb444a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
 			</div>
 		</div>
 	</div>
+
+
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 youtube">
@@ -92,7 +96,20 @@
 
 
 <?php include('news.php'); ?>
+
 <?php include('dates.php'); ?>
+
+
+<section id="lessons">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 appointements">
+			<h3>If you want to book a lesson, check out my availability below.</h3>
+				<?php echo do_shortcode( '[booked-calendar calendar="12"]' ); ?>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <section id="contact">
