@@ -105,7 +105,7 @@
 		<div class="row">
 			<div class="col-sm-12 appointements">
 			<h3>If you want to book a lesson, check out my availability below.</h3>
-				<?php echo do_shortcode( '[booked-calendar calendar="12"]' ); ?>
+				<?php echo do_shortcode( '[booked-calendar]' ); ?>
 			</div>
 		</div>
 	</div>
