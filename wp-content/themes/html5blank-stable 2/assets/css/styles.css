@@ -4,6 +4,7 @@
 }
 body table.booked-calendar tbody td {
   height: 40px !important;
+  width: 800px !important;
 }
 html {
   /*
@@ -93,6 +94,7 @@ html body .appointements table.booked-calendar {
   width: 100% !important;
   margin: 0px 0px;
   font-family: 'Bebas-Neue', sans-serif;
+  display: table-cell !important;
 }
 html body .appointements table.booked-calendar .backToMonth {
   display: none;
